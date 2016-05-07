@@ -1,0 +1,8 @@
+    3  apt-get install make
+   28  apt-get install cpp
+   31  apt-get install g++
+   33  apt-get install libx11-dev
+   36  apt-get install libxrandr-dev
+   82  apt-get install bochs-sdl
+  111  history|grep apt-get
+  112  history|grep apt-get > bochs_setup.txt

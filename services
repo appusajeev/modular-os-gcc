@@ -1,0 +1,6 @@
+We would define services
+0 - graphics services
+1 - debug console services
+2 - file system services
+3 - memory subsystem
+4 - io services
