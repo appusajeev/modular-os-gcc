@@ -23,7 +23,7 @@ link:
 	nasm $(ASFLAGS) $<
 run:
 	losetup /dev/loop0 floppy.img
-	-bochs -q
+	-bochs -q -rc bochsdbg.rc
 	losetup -d /dev/loop0
 update:
 	losetup /dev/loop0 floppy.img
